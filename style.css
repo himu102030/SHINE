@@ -1,0 +1,384 @@
+
+font-family: 'Cinzel', serif;
+font-family: 'Poppins', sans-serif;
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+/*header sec*/
+.nav-item a{
+	margin-left: 20px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	color: black;
+}
+.navicon a i{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	color:#1D2547;
+	border: 1px solid rgba(29,37,71,0.12);
+}
+.navicon i{
+	margin-left:20px;
+}
+.cart i{
+	width:70px !important;
+	border-radius:30px !important;
+	background: #9F78FF;
+   color: white !important;  
+}
+/*beaner sec*/
+.beaner-content-a{
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	background-image:url(img/shine2.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	line-height:20px;
+    position: relative;
+}
+.fashion-a{
+	font-family: 'Cinzel', serif;
+	color:#FFF; 
+	line-height: 120px;
+    font-size:120px;
+   font-weight: 700;
+}
+.shopnow-a{
+	display: inline-block;
+	color: #FFF;
+	background-color: #9F78FF;
+	padding: 23px 44px;
+	position: absolute;
+	bottom: 40px;
+	border: none;
+	border-radius:3px;
+	font-weight: 500;
+	font-size: 18px;
+	transition: color #FFF.4s linear;
+	text-transform: capitalize;
+}
+/*producte sec*/
+.producte{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.p-item{
+	position: relative;
+	margin: 2px;
+	overflow-y: hidden;
+}
+
+.p-shop a{
+	display: inline-block;
+	color: #FFF;
+	background-color: #9F78FF;
+	padding: 16px 40px;
+	border: none;
+	text-decoration: none;
+	border-radius:3px;
+	font-weight: 500;
+	font-size: 20px;
+	position: absolute;
+	top: 154px;
+	right: 73px;
+	transition: 0.4s;
+	opacity: 0;
+
+}
+
+.p-cat h2{
+	padding: 20px 84px;
+	color:#fff;
+    background: rgba(29,37,71,0.5);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    bottom: -7px;
+    font-family: 'Cinzel', serif;
+    width: 100%;
+    transform: translateY(76px);
+    transition: 0.4s;
+
+
+   }
+   .p-item img{
+   	width: 100%;
+   }
+
+   .p-item:hover .p-shop a{
+   	transform: translateY(17px);
+   	opacity: 1;
+   }
+   .p-item:hover .p-cat h2{
+   	    transform: translateY(0px);
+   	    transition: 0.4s;
+   }
+
+/*h tag sec*/
+
+.h1-tag h1{
+    text-align: center;
+	font-size: 70px;
+    display: block;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 4px;
+    font-family: "Cinzel",serif;
+    color: #140C40;
+    font-style: normal;
+}
+/*all producte sec*/
+
+.m-item{
+border: 1px solid rgba(0, 0, 0, 0.1);
+	position: relative;
+
+}
+.p-contant{
+	padding: 20px;
+	
+}
+.p-contant h3 a{	
+	    font-family: 'Poppins', sans-serif;
+	    color: inherit !important;
+}
+
+.p-contant h3:hover{
+	text-decoration: underline;
+}
+.fa i{
+	height: 50px;
+    width: 50px;
+    color: #c9c1b2;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    position: absolute;
+    top: 21px;
+    right: 37px;
+}
+.onal i{
+    font-size: 15px;
+    color:#FBBA42;
+}
+.m-item img{
+	width: 100%;
+}
+ 
+.s-shop{
+	border: 1px solid #9F78FF;
+    color: #9F78FF;
+    background: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 17px 42px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    overflow: hidden;  
+}
+
+.browse{
+	text-align: center;
+}
+.browse .btn{
+	border: 1px solid #9F78FF;
+    color: #9F78FF;
+    background: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 17px 42px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    overflow: hidden;
+    transition: 0.5s;  
+}
+
+.browse .btn:hover{
+    border: 1px solid transparent;
+    color:white;
+    border: 1px solid #9F78FF;
+    background:#9F78FF;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+/*beaner sec 2*/
+
+.beaner-content{
+	height: 100vh;
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+	background-image:url(./img/shine16.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	line-height:20px;
+    position: relative;
+}
+.fashion{
+	color:#FFF; 
+    font-size: 70px;
+   font-weight: 500;
+   font-family: 'Cinzel', serif;
+   font-style: normal;
+   line-height: 100px;
+   margin-top: -75px;
+}
+.shopnow{
+	margin-bottom:120px;
+}
+
+/*beaner sec 3*/
+
+.beaner3{
+	margin: 70px 0px;
+}
+.q-contant{
+	position: relative;
+}
+.e-contant{
+	position: absolute;
+	bottom: 90px;
+    left: 59px;
+}
+.e-contant h3 a{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 400;
+    display: block;
+    line-height: 44px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 53px;
+    text-align: left;
+}
+.read{
+	border: 1px solid #9F78FF;
+    color: #FFF;
+    background:#9F78FF; 
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 17px 42px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    overflow: hidden;
+    margin:-13px 17px;
+    position: absolute;  
+}
+
+/*contante sec*/
+
+.contante{
+	margin: 130px 0px;
+}
+.x-contante img{
+	margin-left: -14px;
+}
+.x-contante h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: block;
+    text-transform: capitalize;
+    color: #2B2B2B;
+    font-family: "Poppins",sans-serif;
+}
+.x-contante p{
+	 font-family: "Poppins",sans-serif;
+    color: #646D77;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+/*fuatar sec*/
+
+.o-contante{
+     background: #1D2547;
+     padding-bottom: 180px; 
+     padding-top: 60px;   
+}
+
+.i-link{
+	text-align: left;
+    margin-left: 13px;
+}
+.i-link a{
+	color: #C2C5DB;
+    font-weight: 300;
+    font-size: 15px;
+    list-style: none;
+    display: block;
+    font-family: "Poppins",sans-serif;
+    margin right: 20px 0;
+}
+.i-link h5{
+	color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins",sans-serif;
+    padding-top: 30px;
+}
+.i-link p{
+	color: #C2C5DB;
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: "Poppins",sans-serif;
+}
+.i-link i{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	color: white;
+	border: 1px solid #fff;
+	margin: 20px 0;
+	margin-left: 10px;
+	transition: 0.7s;
+}
+.i-link a img{
+	padding: 28px 0;
+}
+.i-link ul{
+	padding: 0px;
+	display: block;
+	list-style: none;
+	line-height: 2.9;
+}
+.i-link ul li a:hover{
+	text-decoration: underline;
+	color: #9F78FF;
+	transition: 0.7s; 
+}
+.i-link i:hover{
+	background: #9F78FF;
+	transition: 0.7s;
+}

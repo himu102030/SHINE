@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://preview.colorlib.com/#shionhouse -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<title>Colorlib | Free Bootstrap Website Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="robots" content="noindex, nofollow">
+
+<link href="./Color1_files/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="./Color1_files/template.css" rel="stylesheet" media="screen">
+<link href="./Color1_files/fa.min.css" rel="stylesheet" media="screen">
+<link href="./Color1_files/gfonts.min.css" rel="stylesheet" media="screen">
+<script type="text/javascript" async="" src="./Color1_files/analytics.js.download" nonce="fa0e6f11-ee94-4855-88de-1d55fb0839a1"></script><script defer="" referrerpolicy="origin" src="./Color1_files/s.js.download"></script><script>if ( top !== self ) top.location.replace( self.location.href );// Hey, don't iframe my iframe!</script>
+
+
+<!--[if lt IE 9]>
+		<script>/*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark meter nav output progress section summary subline time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/</script>
+	<![endif]-->
+
+<script async="" src="./Color1_files/js"></script>
+<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+<script nonce="fa0e6f11-ee94-4855-88de-1d55fb0839a1">(function(w,d){!function(cM,cN,cO,cP){cM.zarazData=cM.zarazData||{};cM.zarazData.executed=[];cM.zaraz={deferred:[],listeners:[]};cM.zaraz.q=[];cM.zaraz._f=function(cQ){return function(){var cR=Array.prototype.slice.call(arguments);cM.zaraz.q.push({m:cQ,a:cR})}};for(const cS of["track","set","debug"])cM.zaraz[cS]=cM.zaraz._f(cS);cM.zaraz.init=()=>{var cT=cN.getElementsByTagName(cP)[0],cU=cN.createElement(cP),cV=cN.getElementsByTagName("title")[0];cV&&(cM.zarazData.t=cN.getElementsByTagName("title")[0].text);cM.zarazData.x=Math.random();cM.zarazData.w=cM.screen.width;cM.zarazData.h=cM.screen.height;cM.zarazData.j=cM.innerHeight;cM.zarazData.e=cM.innerWidth;cM.zarazData.l=cM.location.href;cM.zarazData.r=cN.referrer;cM.zarazData.k=cM.screen.colorDepth;cM.zarazData.n=cN.characterSet;cM.zarazData.o=(new Date).getTimezoneOffset();if(cM.dataLayer)for(const cZ of Object.entries(Object.entries(dataLayer).reduce(((c_,da)=>({...c_[1],...da[1]})))))zaraz.set(cZ[0],cZ[1],{scope:"page"});cM.zarazData.q=[];for(;cM.zaraz.q.length;){const db=cM.zaraz.q.shift();cM.zarazData.q.push(db)}cU.defer=!0;for(const dc of[localStorage,sessionStorage])Object.keys(dc||{}).filter((de=>de.startsWith("_zaraz_"))).forEach((dd=>{try{cM.zarazData["z_"+dd.slice(7)]=JSON.parse(dc.getItem(dd))}catch{cM.zarazData["z_"+dd.slice(7)]=dc.getItem(dd)}}));cU.referrerPolicy="origin";cU.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(cM.zarazData)));cT.parentNode.insertBefore(cU,cT)};["complete","interactive"].includes(cN.readyState)?zaraz.init():cM.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,0,"script");})(window,document);</script></head>
+<body>
+
+<header class="switcher-bar ssss clearfix">
+
+<div class="logo textual pull-left">
+<a href="https://colorlib.com/wp/templates/" title="Switcher">
+<img src="./Color1_files/logo.png" alt="Colorlib logo">
+</a>
+</div>
+
+<div class="product-switcher pull-left">
+<a href="https://preview.colorlib.com/#" title="Select a Product">Shionhouse <span class="badge">Template</span></a>
+</div>
+
+<div class="remove-btn header-btn pull-right">
+<a href="https://preview.colorlib.com/#" title="Close this bar" class="icon-remove"></a>
+</div>
+
+<div class="purchase-btn header-btn pull-right">
+<a href="https://preview.colorlib.com/#" title="Buy now" class="icon-shopping-cart"></a>
+</div>
+
+<div class="mobile-btn header-btn pull-right hidden-xs visible" style="opacity: 1; visibility: visible;">
+<a href="https://preview.colorlib.com/#" title="Smartphone View" class="icon-mobile-phone"></a>
+</div>
+
+<div class="tablet-btn header-btn pull-right hidden-xs visible" style="opacity: 1; visibility: visible;">
+<a href="https://preview.colorlib.com/#" title="Tablet View" class="icon-tablet"></a>
+</div>
+
+<div class="desktop-btn header-btn pull-right hidden-xs visible" style="opacity: 1; visibility: visible;">
+<a href="https://preview.colorlib.com/#" title="Desktop View" class="icon-desktop"></a>
+</div>
+</header>
+
+<section class="switcher-body">
+<a href="https://preview.colorlib.com/#" title="Prev" class="icon-chevron-left products-prev hidden disabled" style="display: none;"></a>
+<div class="products-wrapper">
+<div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; inset: auto; z-index: auto; width: 1266px; height: 0px; margin: 0px; overflow: hidden;"><div class="products-list clearfix" style="text-align: left; float: none; position: absolute; inset: 0px auto auto 633px; margin: 0px; width: 1266px; height: 0px;">
+</div></div>
+</div>
+<a href="https://preview.colorlib.com/#" title="Next" class="icon-chevron-right products-next hidden" style="display: none;"></a>
+</section>
+
+<iframe class="product-iframe" frameborder="0" border="0" src="./Color1_files/saved_resource.html" style="height: 507px;"></iframe>
+
+<script src="./Color1_files/jquery.min.js.download"></script>
+<script src="./Color1_files/products.js.download"></script>
+<script src="./Color1_files/application.min.js.download"></script>
+
+
+<script defer="" src="./Color1_files/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;7754a59de8563366&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2022.11.3&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+
+</body></html>
